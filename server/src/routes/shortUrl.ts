@@ -5,9 +5,9 @@ const router = express.Router();
 
 
 router.post("/shortUrl",createUrl);
-router.get("/shortUrl",getAllUrl);
-router.get("/shortUrl/:id",getUrl);
-router.delete("/shortUrl/:id",deleteUrl);
+router.get("/getShort",getAllUrl);
+router.get("/:id",getUrl);
+router.delete("/deleteUrl/:id",deleteUrl);
 
 
 export default router;
