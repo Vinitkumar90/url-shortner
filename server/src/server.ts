@@ -17,7 +17,7 @@ app.use(
     })
 )
 
-app.use("/api/", shortUrl);
+app.use("/api", shortUrl);
 
 
 const startServer = async() => {
